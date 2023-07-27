@@ -11,8 +11,8 @@ import ClientOnly from "./components/ClientOnly";
 import getCurrentUser from "./actions/getCurrentUser";
 
 export const metadata = {
-	title: "Airbnb",
-	description: "Airbnb Clone",
+	title: "LuxeStay",
+	description: "Luxury Destinations around the world",
 };
 
 export default async function RootLayout({
@@ -33,7 +33,7 @@ export default async function RootLayout({
 					<RentModal />
 					<Navbar currentUser={currentUser} />
 				</ClientOnly>
-				<div className='pb-20 pt-28'>{children}</div>
+				<div className='pb-20 pt-28 p-0'>{children}</div>
 			</body>
 		</html>
 	);
