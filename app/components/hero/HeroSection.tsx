@@ -21,7 +21,7 @@ const HeroSection = () => {
 				<h1 className='text-6xl font-bold mt-4 font-cursive'>Luxury Escapes</h1>
 				{/* Increased font size to text-6xl and using a cursive font */}
 				<p className='py-2 text-xl'>
-					Explore the World's Most Exquisite Destinations
+					Explore the World&rsquo;s Most Exquisite Destinations
 				</p>
 				{/* Using text-xl for the description */}
 				<Search />
