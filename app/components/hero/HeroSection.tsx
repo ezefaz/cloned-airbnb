@@ -20,7 +20,7 @@ const HeroSection = () => {
 					Luxury Escapes
 				</h1>
 				<p className='py-4 text-xl md:text-2xl text-center'>
-					Explore the World's Most Exquisite Destinations
+					Explore the World&rsquo;s Most Exquisite Destinations
 				</p>
 				<Search />
 			</div>
