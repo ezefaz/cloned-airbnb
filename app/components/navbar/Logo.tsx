@@ -7,9 +7,13 @@ const Logo = () => {
 
 	return (
 		<div
-			className='flex items-center cursor-pointer'
+			className='flex items-center cursor-pointer p-2'
 			onClick={() => router.push("/")}>
-			<span className='text-4xl font-thin font-cursive pl-2'>LuxStay</span>
+			<div className='text-3xl font-semibold text-blue-600'>L</div>
+			<div className='text-3xl font-thin text-gray-800'>UXE</div>
+			<div className='text-3xl font-bold text-blue-600'>S</div>
+			<div className='text-3xl font-semibold text-blue-600'>T</div>
+			<div className='text-3xl font-thin text-gray-800'>AY</div>
 		</div>
 	);
 };
